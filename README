@@ -1,0 +1,14 @@
+Author: Andrew Crites
+Webzone: http://explosion-pills.com
+Contact: explosion-pills@aysites.com
+
+Pass-By-Value is a project that showcases how many popular languages pass everything by value.
+
+It is common to say that most modern languages pass primitives by value and objects by reference,
+but this is in fact incorrect.
+
+Instead, *object references* are created and stored in variables upon object initialization.
+These references themselves are passed by value.
+
+Pass-By-Value will hopefully dispel the myth that certain languages have pass-by-reference
+paradigms when in fact they don't.  This belief is harmful to the development community.
