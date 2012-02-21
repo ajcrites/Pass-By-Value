@@ -13,7 +13,7 @@ function foon(stdClass $barn) {
 
 /**
  * However, php does allow you to pass symbol table aliases (called "references" in php
- * documentation, but these are not like C aliases).  In function definitions, this
+ * documentation, but these are not like C references).  In function definitions, this
  * allows you to overwrite the passed variable regardless of its type.
  */
 function foon_(stdClass &$barn) {
