@@ -8,7 +8,7 @@
 public class PassByValue {
   public static void main(String [] args) {
     Foon foon = new Foon("foon");
-    Foon.foon(foon);
+    Foon.barn(foon);
     System.out.println(foon);
   }
 }
@@ -20,7 +20,7 @@ class Foon {
     this.foon = foon;
   }
 
-  public static void foon(Foon foon) {
+  public static void barn(Foon foon) {
     foon = new Foon("barn");
   }
 

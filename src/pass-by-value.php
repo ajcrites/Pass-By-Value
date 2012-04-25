@@ -6,7 +6,7 @@
  * @copyright 2012
  */
 
-function foon(stdClass $barn) {
+function barn(stdClass $barn) {
    $barn = new stdClass;
    $barn->foon = 'barn';
 }
@@ -16,18 +16,18 @@ function foon(stdClass $barn) {
  * documentation, but these are not like C references).  In function definitions, this
  * allows you to overwrite the passed variable regardless of its type.
  */
-function foon_(stdClass &$barn) {
+function barn_(stdClass &$barn) {
    $barn = new stdClass;
    $barn->foon = 'barn';
 }
 
 $foon = new stdClass;
 $foon->foon = 'foon';
-foon($foon);
+barn($foon);
 
 echo "$foon->foon\n";
 
-foon_($foon);
+barn_($foon);
 
 echo "$foon->foon\n";
 ?>

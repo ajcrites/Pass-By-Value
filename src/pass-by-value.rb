@@ -8,7 +8,7 @@
 class Foon
    attr_accessor :foon
 
-   def self.foon(foon)
+   def self.barn(foon)
       foon = Foon.new
       foon.foon = "barn"
    end
@@ -16,5 +16,5 @@ end
 
 foon = Foon.new
 foon.foon = "foon"
-Foon.foon(foon)
+Foon.barn foon
 puts foon.foon
