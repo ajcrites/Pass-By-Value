@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-""" The purpose of this file is to display how PHP actually passes object references by value
- rather than passing objects by reference, confirming that PHP is actually a pass-by-value language
+""" The purpose of this file is to display how Python actually passes object references by value
+ rather than passing objects by reference, confirming that Python is actually a pass-by-value language
  @author Andrew Crites <explosion-pills@aysites.com>
  @copyright 2012"""
 
