@@ -1,4 +1,4 @@
-#Pass-By-Value (1.0)
+#Pass-By-Value (1.1)
 
 Pass-By-Value is a project that showcases how many popular languages pass everything by value.
 
@@ -28,3 +28,6 @@ You will notice that "foon" is printed and not "barn" indicating that the _objec
 The variable instance itself was not passed by reference.
 
 Also feel free to show any quirks that can get around this (such as the PHP ability to create symbol table aliases).
+
+##License
+This code is in the public domain.  Please see License.
