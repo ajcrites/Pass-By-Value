@@ -7,7 +7,7 @@
  * @copyright 2012
  */
 function barn(foon) {
-   var foon = {};
+   foon = {};
    foon.foon = "barn";
 }
 
