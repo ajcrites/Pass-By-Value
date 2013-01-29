@@ -1,4 +1,4 @@
-//See http://jsfiddle.net/7485U/1/
+//See http://jsfiddle.net/7485U/2/
 
 /**
  * The purpose of this file is to display how JS actually passes object references by value
