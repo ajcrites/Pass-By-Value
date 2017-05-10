@@ -1,8 +1,8 @@
-#Pass-By-Value (1.1-p1)
+# Pass-By-Value (1.1-p1)
 
 Pass-By-Value is a project that showcases how many popular languages pass everything by value.
 
-##Purpose
+## Purpose
 
 It is common to say that most modern languages pass primitives by value and objects by reference,
 but this is in fact incorrect.
@@ -13,7 +13,7 @@ These references themselves are passed by value.
 Pass-By-Value will hopefully dispel the myth that certain languages have pass-by-reference
 paradigms when in fact they do not.  This belief is harmful to the development community.
 
-##Contributing
+## Contributing
 
 Feel free to contribute another language or fix a problem with an existing language.  The problem should
 be showcased in your example.
@@ -29,5 +29,5 @@ The variable instance itself was not passed by reference.
 
 Also feel free to show any quirks that can get around this (such as the PHP ability to create symbol table aliases).
 
-##License
+## License
 This code is in the public domain.  Please see License.
